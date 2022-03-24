@@ -1,0 +1,88 @@
+body{
+    background: url('/images/weather-clouds.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .weather-container{
+    margin:0 auto;
+    width: 400px;
+    height: 300px;
+    border:2px solid grey;
+    text-align: center; 
+} */
+
+.search-box{
+    text-align: center;
+}
+
+.search-box> *{
+    margin-bottom: 20px;
+}
+
+.search-box>.city{
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 1rem;
+    border-color: rgb(44, 77, 224);
+}
+
+.weather-conditions{
+    display:flex;
+    /* max-width: 400px; */
+    column-gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.weather-conditions div{
+    text-align: center;
+}
+.weather-conditions div>p{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.weather-conditions div p+p{
+    font-weight:500;
+}
+
+.sunrise .fas{
+    color:yellow;
+}
+
+.sunset .fas{
+    color: black;
+}
+/* body{
+    background: red;
+} */
+
+.weather-description{
+    padding: 25px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.additional-info{
+    /* display: grid; */
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+.additional-info-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.additional-info-container div{
+    width: 150px;
+    margin: 5px;
+}
+
+
+
+
+
