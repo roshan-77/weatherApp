@@ -1,5 +1,5 @@
 body{
-    background: url('./images/weather-clouds.jpg');
+    background: url('images/weather-clouds.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
